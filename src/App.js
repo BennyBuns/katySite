@@ -1,16 +1,12 @@
 import './App.css';
-import { Container, Navbar, NavbarBrand } from 'reactstrap';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-       <Navbar dark color='primary' sticky='top' expand='md'>
-               <Container>
-                    <NavbarBrand href='/'>
-                    </NavbarBrand>
-                </Container>
-            </Navbar>
-            hello world
+            <Header/>
+            <Footer/>
     </div>
   );
 }
