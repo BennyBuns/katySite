@@ -1,13 +1,16 @@
+import React from 'react';
 import { Container, Row, Col, } from 'reactstrap';
 
 const Footer = () => {
     return (
-        <Footer className='site-footer'>
+        <footer className='site-footer'>
             <Container>
                 <Row>
-                    <Col xs={{ size: 4, offset: 1 }} sm='2'>links will be here</Col>
+                    <Col xs={{ size: 4, offset: 1 }} sm='2'>
+                        <h5>Links</h5>
+                        this will be site navigation!</Col>
                     <Col xs='6' sm='3' className='text-center'>
-                    <h5>Social</h5>
+                        <h5>Social</h5>
                         <a
                             className='btn btn-social-icon btn-facebook'
                             href='http://www.facebook.com/'
@@ -40,7 +43,7 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-        </Footer>
+        </footer>
     );
 }
 
