@@ -1,11 +1,20 @@
 import React from 'react';
-import Main from './components/MainComponent';
+import { Routes, Route } from 'react-router-dom';
+import ContactPage from './pages/ContactPage';
+import HomePage from './pages/HomePage';
+import Header from './components/HeaderComponent';
+import Footer from './components/FooterComponent';
 import './App.css';
 
 function App() {
     return (
         <div className='App'>
-            <Main />
+            <Header />
+            <Routes>
+                <Route path='/' element={<HomePage />} />
+                <Route path='contact' element={<ContactPage />} />
+            </Routes>
+            <Footer />
         </div>
     );
 }
