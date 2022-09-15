@@ -27,8 +27,8 @@ const ContactPage = () => {
                 </address>
             </div>
             <div className="col">
-                <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone" /> 1-206-555-1234</a><br />
-                <a role="button" className="btn btn-link" href="mailto:fakeemail@fakeemail.co"><i className="fa fa-envelope-o" /> campsites@nucamp.co</a>
+                <a role="button" className="btn btn-link" href="tel:+16037766044"><i className="fa fa-phone" /> 1-603-674-6734</a><br />
+                <a role="button" className="btn btn-link" href="mailto:hamp@tds.net"><i className="fa fa-envelope-o" /> hamp@tds.net</a>
             </div>
         </div>
     </div>
