@@ -6,7 +6,7 @@ import {
 import { Link } from 'react-router-dom';
 import closingTheCircle from '../assets/closingTheCircle.jpg'
 
-const StorePage = () => {
+const ShopPage = () => {
     return (
         <Container>
             <Row>
@@ -17,7 +17,7 @@ const StorePage = () => {
                     </Breadcrumb>
                     <h2> Shop </h2>
                     <hr />
-                    <Card>
+                    <Card className='align-items-center'>
                         <CardImg src={closingTheCircle} alt='closing the cirlce book cover' />
                         <CardBody>
                             <CardTitle>Holocaust to Healing: Closing The Circle</CardTitle>
@@ -28,7 +28,7 @@ const StorePage = () => {
                             </CardText>
                         </CardBody>
                     </Card>
-                    <br/>
+                    <br />
                     <div>
                         <a href="https://www.amazon.com/Holocaust-Healing-Closing-Kati-Preston/dp/1519621248">
                             <Button color="primary" size="lg" >Buy now</Button>
@@ -40,4 +40,4 @@ const StorePage = () => {
     )
 };
 
-export default StorePage;
+export default ShopPage;
