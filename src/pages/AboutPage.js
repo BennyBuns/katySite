@@ -16,7 +16,7 @@ const AboutPage = () => {
             </div>
         </div>
         <Card style={{ width: '18rem' }}>
-            <CardImg width="100%" src={katyWave} alt='katy picture' />
+            <CardImg width="50%" src={katyWave} alt='katy picture' />
             <CardImgOverlay>
                 <CardTitle>Katy Preston</CardTitle>
 
