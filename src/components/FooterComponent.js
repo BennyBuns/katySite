@@ -30,26 +30,8 @@ const Footer = () => {
                     <Col xs='6' sm='3' className='text-center'>
                         <h5>Social</h5>
                         <a
-                            className='btn btn-social-icon btn-instagram'
-                            href='http://instagram.com/'
-                        >
-                            <i className='fa fa-instagram' />
-                        </a>{' '}
-                        <a
-                            className='btn btn-social-icon btn-facebook'
-                            href='http://www.facebook.com/'
-                        >
-                            <i className='fa fa-facebook' />
-                        </a>{' '}
-                        <a
-                            className='btn btn-social-icon btn-twitter'
-                            href='http://twitter.com/'
-                        >
-                            <i className='fa fa-twitter' />
-                        </a>{' '}
-                        <a
                             className='btn btn-social-icon btn-google'
-                            href='http://youtube.com/'
+                            href='https://www.youtube.com/channel/UCUOq4-Q8nKzQTpfte2FhWwQ'
                         >
                             <i className='fa fa-youtube' />
                         </a>
@@ -66,9 +48,9 @@ const Footer = () => {
                         <a
                             role='button'
                             className='btn btn-link'
-                            href='mailto:filler@email.com'
+                            href='hamp@tds.net'
                         >
-                            <i className='fa fa-envelope-o' /> campsites@nucamp.co
+                            <i className='fa fa-envelope-o' /> hamp@tds.net
                         </a>
                     </Col>
                 </Row>
