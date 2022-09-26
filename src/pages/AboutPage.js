@@ -17,9 +17,9 @@ const AboutPage = () => {
                 </div>
             </div>
             <div className='row row-content'>
-                <div className='col d-flex'>
+                <div className='col d-flex justify-content-center col-lg-8'>
                     <Card>
-                        <CardImg className='card-img-top' width="25%" src={katyWave} alt='kati picture' />
+                        <CardImg max-height={600} max-width={300} src={katyWave} alt='kati picture' />
                         <CardImgOverlay>
                             <CardTitle>Kati Preston</CardTitle>
                         </CardImgOverlay>

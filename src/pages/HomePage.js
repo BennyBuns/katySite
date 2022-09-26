@@ -9,7 +9,6 @@ const HomePage = () => {
                 <div className='row'>
                     <div>
                         <Card>
-
                             <CardImg className='card-img-top' width="25%" src={sununu} alt='kati picture'></CardImg>
                             <CardImgOverlay>
                                 <CardTitle> Gov. Sununu Signing Holocaust education bill</CardTitle>
@@ -25,17 +24,20 @@ const HomePage = () => {
                                     </footer>
                                 </blockquote>
                             </CardBody>
-
                         </Card>
+                        <br/>
                         <div className='col d-flex align-item-center'>
                             <a href="https://www.sentinelsource.com/news/local/sununu-signs-genocide-education-bill/article_c7321fde-b09c-5934-bdda-024763960aa5.html">
-                                <Button color="primary" size="lg">Link</Button>
+                                <Button color="primary" size="lg">Link to article</Button>
                             </a>{' '}
                         </div>
                     </div>
+                   
                     <CardDeck>
                     <div className='col '>
-                        <h2>Testimonials</h2>
+                    <br/>
+                    <br/>
+                        <h2 className='col d-flex justify-content-center'>Testimonials</h2>
                             <Card className="bg-light mt-3">
                                 <CardBody>
                                     <blockquote className="blockquote">

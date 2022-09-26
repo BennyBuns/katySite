@@ -54,3 +54,8 @@ h2 {
   min-height: 8rem;
 }
 
+.imgStyle {
+  max-height: 128;
+  max-width: 128;
+}
+
