@@ -17,8 +17,9 @@ const ShopPage = () => {
                     </Breadcrumb>
                     <h2> Shop </h2>
                     <hr />
-                    <Card className='align-items-center'>
-                        <CardImg src={closingTheCircle} alt='closing the cirlce book cover' />
+                    <div>
+                    <Card>
+                        <CardImg className='card-img-top' width="25%" src={closingTheCircle} alt='closing the circle book cover' />
                         <CardBody>
                             <CardTitle>Holocaust to Healing: Closing The Circle</CardTitle>
                             <CardText>This is the candid, no-hold-barred autobiography of Kati Preston: Holocaust & cancer survivor, wife, mother, grandmother, mentor, fashion designer, model, journalist, entrepreneur, impresario, friend, cook, public speaker and campaigner against hate of any sort. <br />
@@ -28,6 +29,7 @@ const ShopPage = () => {
                             </CardText>
                         </CardBody>
                     </Card>
+                    </div>
                     <br />
                     <div>
                         <a href="https://www.amazon.com/Holocaust-Healing-Closing-Kati-Preston/dp/1519621248">

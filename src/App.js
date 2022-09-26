@@ -15,9 +15,9 @@ function App() {
             <Header />
             <Routes>
                 <Route path='/' element={<HomePage />} />
-                <Route path='media' element={<MediaPage/>} />
-                <Route path='shop' element={<ShopPage/>} />
-                <Route path='about' element={<AboutPage/>} />
+                <Route path='media' element={<MediaPage />} />
+                <Route path='shop' element={<ShopPage />} />
+                <Route path='about' element={<AboutPage />} />
                 <Route path='contact' element={<ContactPage />} />
             </Routes>
             <Footer />

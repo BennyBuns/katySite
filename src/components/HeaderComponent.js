@@ -16,7 +16,6 @@ const Header = () => {
     return (
         <Navbar dark color='primary' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
-
                 <h1 className='mt-1'>Kati Speaks</h1>
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
