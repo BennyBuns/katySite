@@ -20,7 +20,7 @@ const MediaPage = () => {
             <div className='row row-content'>
                 <div className='col-md-6'>
                     <div>
-                        <iframe width="560" height="315" src='https://www.youtube.com/embed/rXOKU_ne5zw' type="video/mp4" controls allowFullScreen> Your browser does not support this video.
+                        <iframe width="560" height="315" src='https://www.youtube.com/embed/rXOKU_ne5zw' title="YouTube video player" type="video/mp4" controls allowFullScreen> Your browser does not support this video.
                         </iframe>
                         <p>
                             This video was recorded on December 5th, 2019 at Bedford High School in Bedford NH.
