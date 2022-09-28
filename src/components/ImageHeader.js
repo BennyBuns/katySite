@@ -6,14 +6,10 @@ const HeaderImg = () => {
         <section>
             <div style={{ backgroundImage: `url(${katiLogo})`,
                 backgroundRepeat: 'no-repeat',
-                backgroundPosition: 'center',
+                backgroundPosition: '50% 50%',
                 backgroundSize: 'cover'}}>
 
-                <div className="container" style={{minHeight: '440px'}}>
-                    <div className='row'>
-                    <div className="col text-center justify-content-center align-self-center">
-                    </div>
-                    </div>
+                <div className="container d-flex justify-content-center" style={{minHeight: '240px'}}>
                 </div>
             </div>
         </section>
