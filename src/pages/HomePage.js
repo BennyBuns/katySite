@@ -26,8 +26,8 @@ const HomePage = () => {
                             </CardBody>
                         </Card>
                         <br/>
-                        <div className='col d-flex align-item-center'>
-                            <a href="https://www.sentinelsource.com/news/local/sununu-signs-genocide-education-bill/article_c7321fde-b09c-5934-bdda-024763960aa5.html">
+                        <div className='col'>
+                            <a className='d-flex justify-content-center' href="https://www.sentinelsource.com/news/local/sununu-signs-genocide-education-bill/article_c7321fde-b09c-5934-bdda-024763960aa5.html">
                                 <Button color="primary" size="lg">Link to article</Button>
                             </a>{' '}
                         </div>
