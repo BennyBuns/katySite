@@ -58,4 +58,19 @@ h2 {
   max-height: 128;
   max-width: 128;
 }
-
+ 
+.headerBackground {
+  display: flex;
+  background-color: #390714;
+  background-size: cover;
+  min-height: auto;
+  align-content: center;
+}
+.headerImg {
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  margin: auto auto;
+}

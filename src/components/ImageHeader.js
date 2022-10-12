@@ -4,12 +4,11 @@ import katiLogo from '../assets/katiLogo.jpg';
 const HeaderImg = () => {
     return (
         <section>
-            <div style={{ backgroundImage: `url(${katiLogo})`,
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: '50% 50%',
-                backgroundSize: 'cover'}}>
-
-                <div className="container d-flex justify-content-center" style={{minHeight: '240px'}}>
+            <div className='container'>
+                <div className='row'>
+                    <div className='col headerBackground'>
+                        <img className='headerImg' src={katiLogo} height={300} width={600}/>
+                    </div>
                 </div>
             </div>
         </section>

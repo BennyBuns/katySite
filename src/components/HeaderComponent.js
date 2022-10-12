@@ -19,7 +19,7 @@ const Header = () => {
         <React.Fragment>
             <Navbar dark color='primary' sticky='top' expand='md'>
                 <NavbarBrand className='mr-auto' href='/'>
-                    <img src={katiLogo} width="30" alt="Kati Logo" />
+                    <img className='rounded-circle' src={katiLogo} width="30" alt="Kati Logo" />
                 </NavbarBrand>
                 <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
                 <Collapse isOpen={menuOpen} navbar>
