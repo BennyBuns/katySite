@@ -24,9 +24,7 @@ h3 {
 
 .card-body {
   padding: 0.9375rem 1.875rem;
-  flex: 1 1 auto;
-  color: azure;
-
+  flex: 1 1 auto
 }
 
 .card-title {
@@ -91,4 +89,12 @@ h3 {
   background-size: cover;
   align-content: center;
   margin: auto auto;
+}
+
+.mediaStyle {
+  padding: 1px;
+  border-color: #390714;
+  border: 2px;
+  margin: 5px;
+  border-radius: 10px
 }
