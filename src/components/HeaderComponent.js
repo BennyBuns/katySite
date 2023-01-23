@@ -2,12 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import katiLogo from '../assets/katiLogo.jpg';
 import {
-    Navbar,
-    NavbarBrand,
-    Collapse,
-    NavbarToggler,
-    Nav,
-    NavItem,
+    Navbar, NavbarBrand, Collapse, NavbarToggler,
+    Nav, NavItem, Container, Row, Col
 } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
@@ -17,6 +13,7 @@ const Header = () => {
 
     return (
         <React.Fragment>
+            <Container>
             <Navbar className='navbar-dark' sticky='top' expand='md'>
                 <NavbarBrand className='mr-auto' href='/'>
                     <img className='rounded-circle' src={katiLogo} width="30" alt="Kati Logo" />
@@ -52,7 +49,7 @@ const Header = () => {
                     </Nav>
                 </Collapse>
             </Navbar>
-
+            </Container>
         </React.Fragment>
 
     );
