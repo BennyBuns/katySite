@@ -17,10 +17,10 @@ const ContactPage = () => {
             </div>
         </div>
         <div>
-            <h2>Lecture</h2>
+            <h2>Book an Event</h2>
             <p>
                 To set up a lecture please contact at the number or email listed. <br/>
-                A small honorarium between $200 - $500 depending on travel and time commitment to help pay for a driver would be appreciated.
+                A small honorarium between $250 - $500 depending on travel and time commitment to help pay for a driver would be appreciated.
             </p>
         </div>
         <div className="row row-content align-items-center">

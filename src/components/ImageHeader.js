@@ -3,7 +3,7 @@ import katiLogo from '../assets/katiLogo.jpg';
 
 const HeaderImg = () => {
     return (
-        <section>
+        <section className='bg-secondary'>
             <div className='container'>
                 <div className='row'>
                     <div className='col headerBackground'>
