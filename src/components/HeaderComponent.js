@@ -13,8 +13,8 @@ const Header = () => {
 
     return (
         <React.Fragment>
-            <Container>
-            <Navbar className='navbar-dark' sticky='top' expand='md'>
+                    <Col className='cover'>
+            <Navbar className='navbar-dark cover' sticky='top' expand='md'>
                 <NavbarBrand className='mr-auto' href='/'>
                     <img className='rounded-circle' src={katiLogo} width="30" alt="Kati Logo" />
                 </NavbarBrand>
@@ -49,7 +49,7 @@ const Header = () => {
                     </Nav>
                 </Collapse>
             </Navbar>
-            </Container>
+            </Col>
         </React.Fragment>
 
     );
