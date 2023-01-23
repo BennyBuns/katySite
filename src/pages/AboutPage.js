@@ -13,10 +13,10 @@ const AboutPage = () => {
             <h2 className='d-flex justify-content-center text-danger'> About </h2>
             <hr />
             <Container>
-                <Row className='row-content'>
-                    <Col className='col-12'>
+                <Row>
+                    <Col className='col-lg-8 d-flex justify-content-center'>
                         <Card className='cardStyle bg-dark text-white'>
-                            <CardImg max-height={600} max-width={300} src={katyWave} alt='kati picture' />
+                            <CardImg src={katyWave} alt='kati picture' />
                             <CardImgOverlay>
                                 <CardTitle>Kati Preston</CardTitle>
                             </CardImgOverlay>
