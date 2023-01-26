@@ -32,13 +32,13 @@ const ContactPage = () => {
                                 <label for='address' class='form-label'>Address of Venue</label>
                                 <input type='text' class='form-control' id='address' name='address' required></input>
                                 <label for='phone' class='form-label'>Phone Number of Contact</label>
-                                <input type='text' class='form-control' id='phone' placeholder='555-555-5555' name='phone number' required></input>
+                                <input type='text' class='form-control' id='phone' placeholder='555-555-5555' name='contact phone number' required></input>
                                 <label for='phoneVenue' class='form-label'>Phone Number of Venue</label>
                                 <input type='text' class='form-control' id='phoneVenue' placeholder='555-555-5555' name='venue phone number' required></input>
                             </Col>
                             <Col className='col-md-6'>
                                 <label for='email' class='form-label'>E-Mail of Contact</label>
-                                <input type='text' class='form-control' id='email' name='email' required></input>
+                                <input type='text' class='form-control' id='email' name='email of contact' required></input>
                             </Col>
                             <Col className='col-md-4 mt-3 mb-3'>
                                 <label for="eventTime">Event (date and time):</label>
@@ -56,22 +56,22 @@ const ContactPage = () => {
                             </Col>
                             <Col className='col-md-3'>Number of Participants
                                 <div class="radio" >
-                                    <label><input type="radio" name="optradio" />10 - 50</label>
+                                    <label><input type="radio" name="group size" />10 - 50</label>
                                 </div>
                                 <div class="radio">
-                                    <label><input type="radio" name="optradio" />50 - 100</label>
+                                    <label><input type="radio" name="group size" />50 - 100</label>
                                 </div>
-                                <div class="radio disabled">
-                                    <label><input type="radio" name="optradio" />100 - 1000</label>
+                                <div class="radio">
+                                    <label><input type="radio" name="group size" />100 - 1000</label>
                                 </div>
                             </Col>
                             <Col className='col-md-12'>
                                 <label for="groupInfo">Information about your group (school program, interfaith event, etc.)</label>
-                                <textarea class="form-control" rows="5" id="groupInfo" name='group info' required></textarea>
+                                <textarea class="form-control" rows="5" id="groupInfo" name='event info' required></textarea>
                             </Col>
                             <Col className='col-md-12'>
                                 <label for="instructions">Instructions on Arrival</label>
-                                <textarea class="form-control" rows="5" id="instructions" name='instructions' ></textarea>
+                                <textarea class="form-control" rows="5" id="instructions" name='special instructions' ></textarea>
                             </Col>
                             <Col className='col-md-12'>
                             <Button type='submit' className='btn-danger mt-3'>Submit</Button>
