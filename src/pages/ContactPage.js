@@ -19,10 +19,18 @@ const ContactPage = () => {
                         <hr />
                         <h2 className='d-flex justify-content-center text-danger'>Book an Event</h2>
                         <p>
-                            To set up a lecture please fill out the form or call the number listed below.
+                            To set up a lecture please fill out the form and call the number listed below. <br/>
+                        Please note that Kati’s speeches cover sensitive subjects as she relays real-life events.
+                         The appropriate age groups are middle and high school age.<br/>
+                         The speech lasts approximately 45 minutes with a 20 minute + Q & A session afterwards. 
+                         Audience members are encouraged to ask questions or comment after the event <br/>
+                         Kati has a driver who will assist her during the entire event <br/>
+                         Occasionally, we will ask for permission to take photos. We do not include students in these photos.<br/>
+                         In the event that a school has filmed the event we may ask permission to post media on her website. <br/>
+                         Kati also does zoom events for classrooms- but prefers in person meetings
                         </p>
                         <h3 className='d-flex justify-content-center text-danger'>Compensation</h3>
-                        <p> A small honorarium between $250 - $500 depending on travel and time commitment to help pay for a driver and travel expenses would be appreciated.</p>
+                        <p> Currently, our standard speaker’s fee is $250.00. We will work within school/program budgets (fee is negotiable). Checks made out to Kati Preston.</p>
                         <form className='formgroup' action="https://formsubmit.co/hamp@tds.net" method="POST" >
                             <Col className='col-md-6'>
                                 <label for='venue' class='form-label'>Name of Venue</label>
@@ -47,7 +55,6 @@ const ContactPage = () => {
                             <Col className='col-md-3'>
                                 <label for="age">Audience Profile</label>
                                 <select class="form-control" id="age" name='age range' required>
-                                    <option>elementary school</option>
                                     <option>middle school</option>
                                     <option>high school</option>
                                     <option>university</option>
