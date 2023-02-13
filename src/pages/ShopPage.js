@@ -23,7 +23,7 @@ const ShopPage = () => {
 
 
                         <div>
-                            <Card className='cardStyle bg-dark text-white'>
+                            <Card className='cardStyle'>
                                 <CardImg className=' card-img-top' src={closingTheCircle} alt='Closing the Circle book cover' />
                                 <CardBody className='cardbody'>
                                     <CardTitle>Holocaust to Healing: Closing The Circle</CardTitle>
@@ -42,8 +42,8 @@ const ShopPage = () => {
                     </Col>
 
                     <Col className='col-12 col-lg-6'>
-                        <Card className='cardStyle bg-dark text-white'>
-                            <CardImg className='card-img-top' src={hidden} alt='Closing the Circle book cover' />
+                        <Card className='cardStyle'>
+                            <CardImg className='card-img-top' src={hidden} alt='Hidden book cover' />
                             <CardBody className='cardbody'>
                                 <CardTitle>Hidden</CardTitle>
                                 <CardText>

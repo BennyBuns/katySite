@@ -15,7 +15,7 @@ const MediaPage = () => {
                 <Row>
                 <h1 className='d-flex justify-content-center text-danger'>Media</h1>
                 <hr />
-                        <Col className='justify-content-center mediaStyle bg-dark text-white'>
+                        <Col className='justify-content-center mediaStyle bg-white'>
                             <div class="embed-responsive embed-responsive-21by9">
                             <iframe class="embed-responsive-item" src='https://www.youtube.com/embed/rXOKU_ne5zw' title="YouTube video player" type="video/mp4" controls allowFullScreen> Your browser does not support this video.
                             </iframe>
@@ -24,7 +24,7 @@ const MediaPage = () => {
                                 Kati Preston is a Holocaust Survivor and tells her story of living as a child during the Nazi persecution of the Jews in Europe.
                         </Col>
                         <br />
-                        <Col className='justify-content-center mediaStyle bg-dark text-white'>
+                        <Col className='justify-content-center mediaStyle bg-white'>
                             <div class="embed-responsive embed-responsive-21by9">
                             <iframe class='embed-responsive-item' src="https://www.youtube.com/embed/Sn2mhSi6AnQ" title="YouTube video player" controls allowfullscreen>Your browser does not support this video.</iframe>
                             </div>
@@ -34,7 +34,7 @@ const MediaPage = () => {
                             </p>
                         </Col>
                         <br />
-                        <Col className='justify-content-center mediaStyle bg-dark text-white'>
+                        <Col className='justify-content-center mediaStyle bg-white'>
                             <div class="embed-responsive embed-responsive-21by9">
                             <iframe class='embed-responsive-item' src="https://www.youtube.com/embed/he-jEexqCLc" title="YouTube video player" controls allowfullscreen>Your browser does not support this video.</iframe>
                             </div>
@@ -45,7 +45,7 @@ const MediaPage = () => {
                                 November 2021 by Kenneth Litvak of the Jewish Federation of New Hampshire to commemorate International Holocaust Remembrance Day.
                             </p>
                         </Col>
-                        <Col className='justify-content-center mediaStyle bg-dark text-white'>
+                        <Col className='justify-content-center mediaStyle bg-white'>
                             <div class="embed-responsive embed-responsive-21by9">
                             <iframe class='embed-responsive-item' src="https://www.youtube.com/embed/_R2AuxQC4gs" title="YouTube video player" controls allowfullscreen></iframe>
                             </div>

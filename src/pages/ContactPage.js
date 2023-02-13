@@ -86,15 +86,11 @@ const ContactPage = () => {
                         </form>
                         <div className="col justify-content-center ">
                             <h5 className='d-flex justify-content-center text-danger'>Contact Us</h5>
-                            <address>
+                            <address class='d-flex justify-content-center'>
                                 1053 North Barnstead rd<br />
                                 Center Barnstead, NH 03225<br />
                                 U.S.A.
                             </address>
-                            <div>
-                                <a role="button" className="btn btn-link" href="tel:+16037766044"><i className="fa fa-phone" /> 1-603-674-6734</a><br />
-                                <a role="button" className="btn btn-link" href="mailto:hamp@tds.net"><i className="fa fa-envelope-o" /> hamp@tds.net</a>
-                            </div>
                         </div>
                     </div>
                 </Row>
