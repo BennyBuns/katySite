@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <React.Fragment>
                     <Col className='cover'>
-            <Navbar className='navbar-dark cover' expand='md'>
+            <Navbar  className='navbar-dark cover' sticky-top expand='md'>
                 <NavbarBrand className='mr-auto' href='/'>
                     <img className='rounded-circle' src={katiLogo} width="30" alt="Kati Logo" />
                 </NavbarBrand>

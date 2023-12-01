@@ -3,6 +3,7 @@ import { Container, Row, Col, Card, CardImg, CardImgOverlay, CardTitle, CardBody
 import { Link } from 'react-router-dom';
 import katyWave from '../assets/katyWave.jpeg'
 
+
 const AboutPage = () => {
     return (
         <div className='bg-secondary'>
@@ -15,7 +16,7 @@ const AboutPage = () => {
             <Container>
                 <Row>
                     <Col className='col-lg-8 d-flex justify-content-center justify-item-center'>
-                        <Card className='cardStyle'>
+                        <Card className='cardStyle bg-dark text-white'>
                             <CardImg src={katyWave} alt='kati picture' />
                             <CardImgOverlay>
                                 <CardTitle>Kati Preston</CardTitle>

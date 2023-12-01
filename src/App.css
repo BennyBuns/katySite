@@ -67,7 +67,8 @@ h3 {
   background-image: linear-gradient(to right, #d66666, #921717, #4d0619);
   margin-bottom: 0;
   min-height: 8rem;
-  position: sticky;
+  position: sticky top;
+  
 }
 
 .imgStyle {

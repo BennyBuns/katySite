@@ -23,7 +23,7 @@ const ShopPage = () => {
 
 
                         <div>
-                            <Card className='cardStyle'>
+                            <Card className='cardStyle bg-dark text-white'>
                                 <CardImg className=' card-img-top' src={closingTheCircle} alt='Closing the Circle book cover' />
                                 <CardBody className='cardbody'>
                                     <CardTitle>Holocaust to Healing: Closing The Circle</CardTitle>
@@ -42,7 +42,7 @@ const ShopPage = () => {
                     </Col>
 
                     <Col className='col-12 col-lg-6'>
-                        <Card className='cardStyle'>
+                        <Card className='cardStyle bg-dark text-white'>
                             <CardImg className='card-img-top' src={hidden} alt='Hidden book cover' />
                             <CardBody className='cardbody'>
                                 <CardTitle>Hidden</CardTitle>
@@ -60,16 +60,8 @@ const ShopPage = () => {
                                     For over three years she sketched and wrote a daily Instagram with stories and observations.
                                     This led to being included in a sketchbook show in New York City, various PowerPoint presentations, and working on HIDDEN with author Kati Preston in New Hampshire.
                                     You can see her paintings and illustrations at <a href='https://www.dilleenmarsh.com/' target="_blank" rel="noopener noreferrer">dilleenmarsh.com</a>.
-                                    <br />
-                                    <br />
-                                    Advance copies can be bought directly from Kati, shipments over 10 are reduced to $15 plus shipping. Call the telephone  <a
-                            role='button'
-                            className='btn btn-link'
-                            href='tel:+16036746734'
-                        >
-                            <i className='fa fa-phone' /> 1-603-674-6734
-                        </a> 
-                        for further details.
+
+                          
                                 </CardText>
                                 <a class="btn btn-danger d-flex justify-content-center" target="_blank" rel="noopener noreferrer" href="https://pathway-book-service-cart.mypinnaclecart.com/peter-e-randall/hidden-a-true-story-of-the-holocaust/">
                                     Buy now

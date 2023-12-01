@@ -14,7 +14,7 @@ function App() {
     return (
         <div className='App'>
             <HeaderImg/>
-            <Header />
+            <Header/>
             <Routes>
                 <Route path='/' element={<HomePage />} />
                 <Route path='media' element={<MediaPage />} />
