@@ -1,11 +1,11 @@
 import React from 'react';
 import {
-    Card, CardBody, CardDeck, CardImg, CardTitle, CardText,
+    Card, CardBody, CardDeck, CardImg, CardTitle,
     Container, Row, Col
 } from 'reactstrap';
 import 'bootstrap'
-import sununu from '../assets/Sununu.jpg'
-import hidden from '../assets/Hidden.jpg'
+import katiPrestonFrontPorch from '../assets/katiPrestonFrontPorch.jpg'
+
 
 
 const HomePage = () => {
@@ -33,58 +33,27 @@ const HomePage = () => {
                     </Col>
                     <Col className='col-12 col-lg-6'>
                         <Card className='cardStyle'>
-                            <CardImg className='card-img-top' width="25%" src={sununu} alt='kati picture'></CardImg>
+                            <CardImg className='card-img-top' width="25%" src={katiPrestonFrontPorch} alt='kati picture'></CardImg>
 
-                            <CardTitle> Gov. Sununu Signing Holocaust education bill</CardTitle>
+                            <CardTitle> Teachers struggle to teach the Holocaust without running afoul of new ‘divisive concepts’ rules </CardTitle>
                             <CardBody className='cardbody'>
 
                                 <blockquote className="blockquote">
-                                    <p className="mb-0">“I honestly think this generation of kids in school today will save the world, I want to give them the opportunity to hear,
-                                        to learn the history of what can happen with prejudice and how far it can be pushed.”
-
+                                    <p className="mb-0">For more than a decade, Preston, now 84 and the author of the young adult graphic memoir “Hidden: A True Story of the Holocaust,” has been invited to 50 to 70 middle and high schools a year to share her story. She speaks primarily in New Hampshire, her home of 40 years. Last spring, she started becoming more political in her talks, especially about the dangers of staying silent when others are scapegoated. “Ten percent of people are
+                                        very good people, wonderful people. Ten percent are pretty awful. Eighty percent are sheep, and that’s what scares me,” Preston told the students at Kingswood Regional High. “It’s the sheep that allowed Hitler to rise.” 
                                     </p> <br />
                                     <footer className="blockquote-footer">
-                                        Kati Preston
+                                        Kati Preston, a Holocaust survivor and education speaker, at her home in New Hampshire. Credit: Vanessa Leroy for The Boston Globe
+
                                     </footer>
                                 </blockquote>
-                                <a class="btn btn-danger d-flex justify-content-center" target="_blank" href="https://www.sentinelsource.com/news/local/sununu-signs-genocide-education-bill/article_c7321fde-b09c-5934-bdda-024763960aa5.html">
+                                <a className="btn btn-danger d-flex justify-content-center" target="_blank" rel="noopener noreferrer" href="https://hechingerreport.org/teachers-struggle-to-teach-the-holocaust-without-running-afoul-of-new-divisive-concepts-rules/">
                                     Link to article
                                 </a>
                             </CardBody>
                         </Card>
                     </Col>
                 </Row>
-                <Row>
-                <h1 class='d-flex justify-content-center text-danger'>New Book</h1>
-                    <Col className='col-12 col-lg-6'>  
-                    <Card className='cardStyle' >
-                            <CardImg className='card-img-top' width="25%" src={hidden} alt='Hidden book cover' />
-                            <CardBody className='cardbody'>
-                                <CardTitle>Hidden</CardTitle>
-                                <CardText>
-                                    HIDDEN is the compelling story told from the child’s perspective of Kati Preston, who lost her extended Jewish family in the Holocaust and was saved when she was 5 years old.
-                                    It is beautifully illustrated in color as a graphic novel.
-                                    Kati Preston was born in Hungary in 1939, the only child born to a Jewish father and a Catholic mother.
-                                    Twenty-eight members of Kati’s Jewish family perished in Auschwitz.
-                                    After successful careers as a journalist, international fashion designer, EMT, and owner of an educational theater company, Kati realized that what matters most is sharing 
-                                    her story of survival in order to educate others of the devastating consequences of hate and prejudice.
-                                    <br />
-                                    ILLUSTRATOR Dilleen Marsh works from her southwestern desert studio in Utah communicating ideas through art.
-                                    She has illustrated 10 children’s books, designed a magazine for teenagers, created an art curriculum for an elementary school, and taught at a university.
-                                    Dilleen has exhibited and won awards in various shows and galleries, locally, and nationally.
-                                    For over three years she sketched and wrote a daily Instagram with stories and observations.
-                                    This led to being included in a sketchbook show in New York City, various PowerPoint presentations, and working on HIDDEN with author Kati Preston in New Hampshire.
-                                    You can see her paintings and illustrations at <a href='https://www.dilleenmarsh.com/' target="_blank">dilleenmarsh.com</a>.
-                                </CardText>
-                                <a class="btn btn-danger d-flex justify-content-center" target="_blank" href="https://pathway-book-service-cart.mypinnaclecart.com/peter-e-randall/hidden-a-true-story-of-the-holocaust/">
-                                    Buy now
-                                </a>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    
-                </Row>
-
                 <Row>
                     <CardDeck>
                         <Col>
@@ -106,8 +75,8 @@ const HomePage = () => {
                             <Card className="cardStyle mt-3">
                                 <CardBody>
                                     <blockquote className="blockquote">
-                                        <p className="mb-0">“Words cannot describe how amazing you are. You have made me change my way of thinking...You have changed my way of how not to hate [because] you went through horrible things and you found a way to not hate.”</p> <br />
-                                        <footer className="blockquote-footer">Hannah Littlefield{' '}
+                                        <p className="mb-0">“Kati Preston is a masterful presenter who weaves an inspiring personal narrative that is certain to engage your students. She expresses the painful elements of her family's history in Romania during the Holocaust. However, she has transformed that loss into an inspirational message of unity, peace and meaningful dialogue with others. At this time of uncertainty and discord, Kati offers students a pathway to navigate public discourse and to draw lessons that transcend the traditional history lesson.”</p> <br />
+                                        <footer className="blockquote-footer">-Dr. William R. Driscoll{' '}
                                         </footer>
                                     </blockquote>
                                 </CardBody>

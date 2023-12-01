@@ -7,7 +7,7 @@ const HeaderImg = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='col headerBackground'>
-                        <img className='img-fluid' src={katiLogo} />
+                        <img className='img-fluid' src={katiLogo} alt='Kati Preston Logo'/>
                     </div>
                 </div>
             </div>

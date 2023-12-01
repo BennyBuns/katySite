@@ -32,7 +32,7 @@ const ShopPage = () => {
                                         It is a veritable history lesson told with much humor, insights, incisiveness and empathy. She knew and interacted with many a famous person in multiple countries, in multiple scenarios. Now in her seventies she is an indefatigable and much sought after inspirational speaker to the younger generation <br />
                                         her message always that of love, tolerance, acceptance and inclusiveness given the experiences to the contrary she experienced firsthand.
                                     </CardText>
-                                    <a class="btn btn-danger d-flex justify-content-center" target="_blank" href="https://www.amazon.com/Holocaust-Healing-Closing-Kati-Preston/dp/1519621248">
+                                    <a class="btn btn-danger d-flex justify-content-center" target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Holocaust-Healing-Closing-Kati-Preston/dp/1519621248">
                                         Buy now
                                     </a>
                                 </CardBody>
@@ -59,9 +59,19 @@ const ShopPage = () => {
                                     Dilleen has exhibited and won awards in various shows and galleries, locally, and nationally.
                                     For over three years she sketched and wrote a daily Instagram with stories and observations.
                                     This led to being included in a sketchbook show in New York City, various PowerPoint presentations, and working on HIDDEN with author Kati Preston in New Hampshire.
-                                    You can see her paintings and illustrations at <a href='https://www.dilleenmarsh.com/' target="_blank">dilleenmarsh.com</a>.
+                                    You can see her paintings and illustrations at <a href='https://www.dilleenmarsh.com/' target="_blank" rel="noopener noreferrer">dilleenmarsh.com</a>.
+                                    <br />
+                                    <br />
+                                    Advance copies can be bought directly from Kati, shipments over 10 are reduced to $15 plus shipping. Call the telephone  <a
+                            role='button'
+                            className='btn btn-link'
+                            href='tel:+16036746734'
+                        >
+                            <i className='fa fa-phone' /> 1-603-674-6734
+                        </a> 
+                        for further details.
                                 </CardText>
-                                <a class="btn btn-danger d-flex justify-content-center" target="_blank" href="https://pathway-book-service-cart.mypinnaclecart.com/peter-e-randall/hidden-a-true-story-of-the-holocaust/">
+                                <a class="btn btn-danger d-flex justify-content-center" target="_blank" rel="noopener noreferrer" href="https://pathway-book-service-cart.mypinnaclecart.com/peter-e-randall/hidden-a-true-story-of-the-holocaust/">
                                     Buy now
                                 </a>
                             </CardBody>

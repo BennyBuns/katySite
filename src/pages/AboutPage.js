@@ -14,7 +14,7 @@ const AboutPage = () => {
             <hr />
             <Container>
                 <Row>
-                    <Col className='col-lg-8 d-flex justify-content-center'>
+                    <Col className='col-lg-8 d-flex justify-content-center justify-item-center'>
                         <Card className='cardStyle'>
                             <CardImg src={katyWave} alt='kati picture' />
                             <CardImgOverlay>

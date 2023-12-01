@@ -3,7 +3,7 @@ import { useState } from 'react';
 import katiLogo from '../assets/katiLogo.jpg';
 import {
     Navbar, NavbarBrand, Collapse, NavbarToggler,
-    Nav, NavItem, Container, Row, Col
+    Nav, NavItem, Col
 } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <React.Fragment>
                     <Col className='cover'>
-            <Navbar className='navbar-dark cover' sticky='top' expand='md'>
+            <Navbar className='navbar-dark cover' expand='md'>
                 <NavbarBrand className='mr-auto' href='/'>
                     <img className='rounded-circle' src={katiLogo} width="30" alt="Kati Logo" />
                 </NavbarBrand>
