@@ -1,5 +1,5 @@
 import React from 'react';
-import katiLogo from '../assets/katiLogo.jpg';
+import Hidden from '../assets/hiddenBanner.png';
 
 const HeaderImg = () => {
     return (
@@ -7,7 +7,7 @@ const HeaderImg = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='col headerBackground'>
-                        <img className='img-fluid' src={katiLogo} alt='Kati Preston Logo'/>
+                        <img className='img-fluid' src={Hidden} alt='Kati Preston Logo'/>
                     </div>
                 </div>
             </div>

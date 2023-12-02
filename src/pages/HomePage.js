@@ -36,37 +36,13 @@ const HomePage = () => {
                     <Row>
                     <Col className='col-12 col-lg-6'>
                         <Card className='cardStyle bg-dark text-white'>
-                            <CardImg className='card-img-top' width="25%" src={katiPrestonFrontPorch} alt='kati picture'></CardImg>
-
-                            <CardTitle classname=''> Teachers struggle to teach the Holocaust without running afoul of new ‘divisive concepts’ rules </CardTitle>
-                            <CardBody className='cardbody'>
-
-                                <blockquote className="blockquote">
-                                    <p className="mb-0">For more than a decade, Preston, now 84 and the author of the young adult graphic memoir “Hidden: A True Story of the Holocaust,” has been invited to 50 to 70 middle and high schools a year to share her story. She speaks primarily in New Hampshire, her home of 40 years. Last spring, she started becoming more political in her talks, especially about the dangers of staying silent when others are scapegoated. “Ten percent of people are
-                                        very good people, wonderful people. Ten percent are pretty awful. Eighty percent are sheep, and that’s what scares me,” Preston told the students at Kingswood Regional High. “It’s the sheep that allowed Hitler to rise.” 
-                                    </p> <br />
-                                    <footer className="blockquote-footer text-white">
-                                        Kati Preston, a Holocaust survivor and education speaker, at her home in New Hampshire. Credit: Vanessa Leroy for The Boston Globe
-
-                                    </footer>
-                                </blockquote>
-                                <a className="btn btn-danger d-flex justify-content-center" target="_blank" rel="noopener noreferrer" href="https://hechingerreport.org/teachers-struggle-to-teach-the-holocaust-without-running-afoul-of-new-divisive-concepts-rules/">
-                                    Link to article
-                                </a>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col className='col-12 col-lg-6'>
-                        <Card className='cardStyle bg-dark text-white'>
                             <CardImg className='card-img-top' width="25%" src={sununu} alt='kati picture'></CardImg>
 
                             <CardTitle> Gov. Sununu Signing Holocaust education bill</CardTitle>
                             <CardBody className='cardbody'>
-
                                 <blockquote className="blockquote  text-white">
-                                    <p className="mb-0">Teaching about the Holocaust and genocide prevention will be required under New Hampshire’s definition of an adequate education, as part of a bill Gov. Chris Sununu signed into law Thursday.
-                                        Sununu was joined for the occasion by Kati Preston, a Holocaust survivor and Center Barnstead resident.
-                                        “I honestly think this generation of kids in school today will save the world,” Preston said, according to a news release from the governor’s office. “I want to give them the opportunity to hear, to learn — to learn the history of what can happen with prejudice and how far it can be pushed.”
+                                    <p className="mb-0">
+                                        “I honestly think this generation of kids in school today will save the world,” Preston said, “I want to give them the opportunity to hear, to learn — to learn the history of what can happen with prejudice and how far it can be pushed.”
                                         In addition to making Holocaust and genocide-prevention education compulsory, the new law establishes a commission to study best practices for the subjects’ instruction.
                                     </p> <br />
                                     <footer className="blockquote-footer text-white">
@@ -74,6 +50,25 @@ const HomePage = () => {
                                     </footer>
                                 </blockquote>
                                 <a class="btn btn-danger d-flex justify-content-center" target="_blank" rel="noreferrer" href="https://www.sentinelsource.com/news/local/sununu-signs-genocide-education-bill/article_c7321fde-b09c-5934-bdda-024763960aa5.html">
+                                    Link to article
+                                </a>
+                            </CardBody>
+                        </Card>
+                    </Col>
+                    <Col className='col-12 col-lg-6'>
+                        <Card className='cardStyle bg-dark text-white'>
+                            <CardImg className='card-img-top' width="25%" src={katiPrestonFrontPorch} alt='kati picture'></CardImg>
+                            <CardTitle classname=''> Teachers struggle to teach the Holocaust without running afoul of new ‘divisive concepts’ rules </CardTitle>
+                            <CardBody className='cardbody'>
+                                <blockquote className="blockquote">
+                                    <p className="mb-0">For more than a decade, Preston, now 84 and the author of the young adult graphic memoir “Hidden: A True Story of the Holocaust,” has been invited to 50 to 70 middle and high schools a year to share her story. She speaks primarily in New Hampshire, her home of 40 years.
+                                    </p> <br/>
+                                    <footer className="blockquote-footer text-white">
+                                        Kati Preston, a Holocaust survivor and education speaker, at her home in New Hampshire. Credit: Vanessa Leroy for The Boston Globe
+
+                                    </footer>
+                                </blockquote>
+                                <a className="btn btn-danger d-flex justify-content-center" target="_blank" rel="noopener noreferrer" href="https://hechingerreport.org/teachers-struggle-to-teach-the-holocaust-without-running-afoul-of-new-divisive-concepts-rules/">
                                     Link to article
                                 </a>
                             </CardBody>
@@ -102,7 +97,7 @@ const HomePage = () => {
                                 <CardBody>
                                     <blockquote className="blockquote">
                                         <p className="mb-0">“Kati Preston is a masterful presenter who weaves an inspiring personal narrative that is certain to engage your students. She expresses the painful elements of her family's history in Romania during the Holocaust. However, she has transformed that loss into an inspirational message of unity, peace and meaningful dialogue with others. At this time of uncertainty and discord, Kati offers students a pathway to navigate public discourse and to draw lessons that transcend the traditional history lesson.”</p> <br />
-                                        <footer className="blockquote-footer">-Dr. William R. Driscoll{' '}
+                                        <footer className="blockquote-footer">Dr. William R. Driscoll{' '}
                                         </footer>
                                     </blockquote>
                                 </CardBody>

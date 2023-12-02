@@ -24,7 +24,7 @@ const ContactPage = () => {
                         </div>
                         <h2 className='d-flex justify-content-center text-danger'>Book an Event</h2>
                         <p>
-                            To set up a lecture please fill out the form and call the number listed above to ensure she checks the email you send. <br />
+                            To set up a lecture please fill out the form and <u>call the number listed above to ensure she sees the form you submit.</u> <br />
                             Please note that Kati’s speeches cover sensitive subjects as she relays real-life events.
                             The appropriate age groups are middle and high school age.<br />
                             The speech lasts approximately 45 minutes with a 20 minute + Q & A session afterwards.
@@ -35,7 +35,7 @@ const ContactPage = () => {
                             Kati also does zoom events for classrooms- but prefers in person meetings
                         </p>
                         <h3 className='d-flex justify-content-center text-danger'>Compensation</h3>
-                        <p> Currently, our standard speaker’s fee is $250.00. We will work within school/program budgets (fee is negotiable). Checks made out to Kati Preston.</p>
+                        <p>We will work within school/program budgets (fee is negotiable). Checks made out to Kati Preston.</p>
                         <form className='formgroup' action="https://formsubmit.co/hamp@tds.net" method="POST" >
                             <Col className='col-md-6'>
                                 <label for='venue' class='form-label'>Name of Venue</label>
