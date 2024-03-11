@@ -35,7 +35,7 @@ const ContactPage = () => {
                             Kati also does zoom events for classrooms- but prefers in person meetings
                         </p>
                         <h3 className='d-flex justify-content-center text-danger'>Compensation</h3>
-                        <p>We will work within school/program budgets (fee is negotiable). Checks made out to Kati Preston.</p>
+                        <p >Speaking Fee is <span style={{color: "yellow"}}>$300</span> (in state). We will work within school/program budgets (fee is negotiable). Checks made out to Kati Preston.</p>
                         <form className='formgroup' action="https://formsubmit.co/hamp@tds.net" method="POST" >
                             <Col className='col-md-6'>
                                 <label for='venue' class='form-label'>Name of Venue</label>
